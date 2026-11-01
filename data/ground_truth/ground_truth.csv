@@ -1,0 +1,6 @@
+issue_type,record_id,ground_truth,details
+INTERVIEWER_UNAVAILABLE,INT-2026-ANOM-0001,FLAG_CONFLICT,Interview overlaps an existing booking for the same interviewer.
+DUPLICATE_APPLICATION,APP-REQ-2026-000078-CAND-000537-DUP-000660,FLAG_DUPLICATE,Candidate has more than one application to the same requisition.
+MISSING_FEEDBACK_STAGE_ADVANCED,APP-REQ-2026-000067-CAND-001282,FLAG_MISSING_FEEDBACK,Interview INT-2026-000001 has no feedback but application reached interview stage.
+OFFER_OUTSIDE_APPROVED_BAND,OFF-2026-ANOM-0001,BLOCK_OFFER,Offer salary exceeds requisition maximum approved salary.
+CLOSED_ROLE_ACTIVE_APPLICATIONS,REQ-2026-000001,FLAG_LIFECYCLE,Closed requisition still has active application APP-REQ-2026-000001-CAND-000585.

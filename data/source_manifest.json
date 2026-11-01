@@ -1,0 +1,45 @@
+{
+  "seed": 20261022,
+  "scale": 1.0,
+  "counts_requested": {
+    "requisitions": 100,
+    "candidates": 2000,
+    "applications": 3000,
+    "interviews": 600,
+    "offers": 150
+  },
+  "counts_actual": {
+    "departments.csv": 5,
+    "job_requisitions.csv": 100,
+    "candidates.csv": 2000,
+    "skills.csv": 16,
+    "requisition_skills.csv": 443,
+    "candidate_skills.csv": 11047,
+    "resume_artifacts.csv": 2000,
+    "screening_rules.csv": 100,
+    "applications.csv": 3000,
+    "interviewers.csv": 60,
+    "interviews.csv": 601,
+    "feedback.csv": 483,
+    "offers.csv": 151,
+    "application_events.csv": 5534
+  },
+  "ground_truth_rows": 5,
+  "files": {
+    "data\\csv\\application_events.csv": "870e2f055690fa59d8af0d51334c1ffbb7b48e2b0cc0974ef071e92310e8a532",
+    "data\\csv\\applications.csv": "1470a8182d76edf2606119b6939db839229f704a7d96f23152a3ae577b602dc3",
+    "data\\csv\\candidate_skills.csv": "89dfcf3e8370beca41b071cb2edb9466202e548f49769048cde793fc41f8ecd8",
+    "data\\csv\\candidates.csv": "a2e0e40e68ea4e32cb0b65e9d7e5f43b006ff03e441c6cd51bcbdfa7e60153c0",
+    "data\\csv\\departments.csv": "9ef158d8779ca5f975a136bf3473c878c1fc47b9de0e462c0f3c24669ac7df94",
+    "data\\csv\\feedback.csv": "c876f4a974c70b57c42a515d3d6c6a8a859e686154c60cf7348596868b95ef66",
+    "data\\csv\\interviewers.csv": "4ab2cef0bde5e3ab321f7f8b16830995fcc28a582a3ced665a627b525727d965",
+    "data\\csv\\interviews.csv": "8113a36705e87b35096d2bf9c45e60cf40a2ae3cb7eb00d7a21ac833d7b067e1",
+    "data\\csv\\job_requisitions.csv": "c75d4d62818294b43b9ad62447bf1b133934a8d1fde059fb1cc5b94877bce2d3",
+    "data\\csv\\offers.csv": "2d723ceaee821368e6f2b57b32a6ed92009284b9b1523a7ebca146518af04a9e",
+    "data\\csv\\requisition_skills.csv": "4d3b75ed94c908e08a36b5b65c8d5e971b916ad935725a060cdb7b2de4b2a728",
+    "data\\csv\\resume_artifacts.csv": "21e078ff212bc0d8072934b4496757f41e60fca64083c8e8c2bd739d92dd748a",
+    "data\\csv\\screening_rules.csv": "8f21e60e192475103717f27007c5bdd7b8b03b83597d194ea86616a2dd39b7ca",
+    "data\\csv\\skills.csv": "b4e2158433ee4ec807f804871406719324c1137dddb441b1935b8cb20b18a5c2",
+    "data\\ground_truth\\ground_truth.csv": "72a76248f7cd89387201c5a4d403aa14d07a29b7e20a9785f3c114e61dbcff74"
+  }
+}

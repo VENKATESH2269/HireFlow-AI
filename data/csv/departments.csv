@@ -1,0 +1,6 @@
+id,name,cost_center
+1,Engineering,CC-001
+2,Data,CC-002
+3,Product,CC-003
+4,Operations,CC-004
+5,AI Research,CC-005

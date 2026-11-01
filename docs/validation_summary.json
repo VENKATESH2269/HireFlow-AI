@@ -1,0 +1,59 @@
+{
+  "primary_key_policy": "SQLAlchemy primary keys enforced by SQLite",
+  "foreign_key_policy": "Foreign keys declared in SQLAlchemy models",
+  "seed": 20261022,
+  "scale": 1.0,
+  "row_counts": {
+    "departments.csv": 5,
+    "job_requisitions.csv": 100,
+    "candidates.csv": 2000,
+    "skills.csv": 16,
+    "requisition_skills.csv": 443,
+    "candidate_skills.csv": 11047,
+    "resume_artifacts.csv": 2000,
+    "screening_rules.csv": 100,
+    "applications.csv": 3000,
+    "interviewers.csv": 60,
+    "interviews.csv": 601,
+    "feedback.csv": 483,
+    "offers.csv": 151,
+    "application_events.csv": 5534
+  },
+  "labelled_edge_cases": [
+    {
+      "issue_type": "INTERVIEWER_UNAVAILABLE",
+      "record_id": "INT-2026-ANOM-0001",
+      "ground_truth": "FLAG_CONFLICT",
+      "details": "Interview overlaps an existing booking for the same interviewer."
+    },
+    {
+      "issue_type": "DUPLICATE_APPLICATION",
+      "record_id": "APP-REQ-2026-000078-CAND-000537-DUP-000660",
+      "ground_truth": "FLAG_DUPLICATE",
+      "details": "Candidate has more than one application to the same requisition."
+    },
+    {
+      "issue_type": "MISSING_FEEDBACK_STAGE_ADVANCED",
+      "record_id": "APP-REQ-2026-000067-CAND-001282",
+      "ground_truth": "FLAG_MISSING_FEEDBACK",
+      "details": "Interview INT-2026-000001 has no feedback but application reached interview stage."
+    },
+    {
+      "issue_type": "OFFER_OUTSIDE_APPROVED_BAND",
+      "record_id": "OFF-2026-ANOM-0001",
+      "ground_truth": "BLOCK_OFFER",
+      "details": "Offer salary exceeds requisition maximum approved salary."
+    },
+    {
+      "issue_type": "CLOSED_ROLE_ACTIVE_APPLICATIONS",
+      "record_id": "REQ-2026-000001",
+      "ground_truth": "FLAG_LIFECYCLE",
+      "details": "Closed requisition still has active application APP-REQ-2026-000001-CAND-000585."
+    }
+  ],
+  "notes": [
+    "All candidate data is synthetic and uses example.test email addresses.",
+    "Ground truth is exported separately and must not be used as a model input.",
+    "Deliberate anomaly records are labelled; normal records are generated first."
+  ]
+}

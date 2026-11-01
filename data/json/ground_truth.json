@@ -1,0 +1,32 @@
+[
+  {
+    "issue_type": "INTERVIEWER_UNAVAILABLE",
+    "record_id": "INT-2026-ANOM-0001",
+    "ground_truth": "FLAG_CONFLICT",
+    "details": "Interview overlaps an existing booking for the same interviewer."
+  },
+  {
+    "issue_type": "DUPLICATE_APPLICATION",
+    "record_id": "APP-REQ-2026-000078-CAND-000537-DUP-000660",
+    "ground_truth": "FLAG_DUPLICATE",
+    "details": "Candidate has more than one application to the same requisition."
+  },
+  {
+    "issue_type": "MISSING_FEEDBACK_STAGE_ADVANCED",
+    "record_id": "APP-REQ-2026-000067-CAND-001282",
+    "ground_truth": "FLAG_MISSING_FEEDBACK",
+    "details": "Interview INT-2026-000001 has no feedback but application reached interview stage."
+  },
+  {
+    "issue_type": "OFFER_OUTSIDE_APPROVED_BAND",
+    "record_id": "OFF-2026-ANOM-0001",
+    "ground_truth": "BLOCK_OFFER",
+    "details": "Offer salary exceeds requisition maximum approved salary."
+  },
+  {
+    "issue_type": "CLOSED_ROLE_ACTIVE_APPLICATIONS",
+    "record_id": "REQ-2026-000001",
+    "ground_truth": "FLAG_LIFECYCLE",
+    "details": "Closed requisition still has active application APP-REQ-2026-000001-CAND-000585."
+  }
+]
